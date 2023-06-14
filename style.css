@@ -75,6 +75,7 @@ body * {
 }
 .light #switch button {
   animation: slide-in 0.4s forwards;
+  background-color: gray;
 }
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
@@ -109,6 +110,7 @@ ul li a {
   background: rgba(255 255 255 0.1);
   border: 1px solid rgba(255 255 255 0.5);
   border-radius: 8px;
+  background-color: #311670;
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -117,6 +119,9 @@ ul li a {
   font-weight: 500;
 
   transition: background 0.2s;
+}
+.light ul li a {
+  background-color: #c0c0c0;
 }
 /* pseudo-selector */
 ul li a:hover {
@@ -141,6 +146,10 @@ ul li a:hover {
 }
 #social-links a:hover {
   background: var(--highlight-color);
+  background-color: #311670;
+}
+.light #social-links a:hover {
+  background-color: #c0c0c0;
 }
 footer {
   padding: 24px 0;
